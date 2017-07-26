@@ -20,7 +20,6 @@
 				<?php endwhile; else: ?>
 					<div class="no-results">
 						<h2><?php _e('We apologize for any inconvenience, please hit back on your browser or use the search form below.', 'video'); ?></h2>
-						<?php get_search_form(); ?>
 					</div><!--noResults-->
 				<?php endif; ?>
 
