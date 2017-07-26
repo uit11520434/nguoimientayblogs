@@ -1,0 +1,53 @@
+/*
+Theme Name: nguoimientay
+Version: 1.0
+Description: A child theme of Video by MyThemeShop
+Template: mts_video
+Text Domain: video
+*/
+
+@import url("../mts_video/style.css");
+
+.nav-search-box {
+    padding-top: 17px;
+    width: 320px;
+    padding: 17px 0px 4px 15px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.nav-search-box .dark-form .input-group input[type="text"]{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    min-width: 250px;
+}
+.nav-search-box .dark-form .input-group input[type="text"], .nav-search-box .dark-form .input-group-btn .btn-default {
+    border-radius: 3px;
+}
+.nav-search-box .dark-form .input-group-btn .btn-default {
+    border-width: 2px;
+    -webkit-box-sizing: border-box;
+    height: 35px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #828282;
+    outline: none !important;
+    position: relative;
+    padding: 3px 11px 1px 10px;
+    overflow: visible;
+    background: #F0F0F0;
+    cursor: pointer;
+    right: 0px;
+}
+.nav-search-box .dark-form .input-group input[type="text"], .nav-search-box .dark-form .input-group-btn .btn-default {
+    border-radius: 1px;
+    border-width: 1px;
+}
+.logo-wrap {
+    margin: 0 0% 0 0;
+}
+/* .postauthor, .post-author {
+    display: none !important;
+} */
+
